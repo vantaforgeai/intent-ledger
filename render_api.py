@@ -9,7 +9,7 @@ import os
 from datetime import datetime, timedelta
 
 DB_PATH = "ledger.db"
-API_KEYS = {"vantaforgeai": "sk_vanta_2026_secure"}
+API_KEYS = {"vantaforgeai": "sk_vanta_pF5SSP9U36B5W98eRHDICkWt_f_VTScH"}
 
 app = FastAPI(title="Intent Ledger API")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
